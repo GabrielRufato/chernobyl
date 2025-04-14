@@ -1,0 +1,126 @@
+.logo1ch {
+  display: flex;
+  justify-content: center; /* centraliza */
+  align-items: flex-start; /* alinha a imagem no "teto" */
+  height: 90vh; /*container ocupa toda a tela */
+  flex-direction: column; /*elementos na coluna */
+  padding-top: 0; /* sem espaço extra em cima */
+}
+
+table {
+  width: 90%; 
+  border-spacing: 0;
+  margin-top: 10px; 
+  border: 1px solid black; /* borda */
+}
+
+table, td {
+  border: 1px solid black; /* Borda */
+  background: linear-gradient;
+  background-size: 100% 1px;
+}
+
+table td {
+  background-color: #4d6454; /* cor de fundo da tabela + verde radioativo */
+  text-align: center; /* Alinha */
+  padding: 5px; /* Espaçamento  */
+}
+
+table td img {
+  width: 100%; /* imagem ocupa tudo*/
+  height: auto; /* proporção da imagem automatica */
+}
+
+img {
+  max-width: 100%; /*  imagem nao passa o limite da tela */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0; /* tira a margem ao redor da imagem */
+}
+
+body {
+  background-image: url('imagens/fundo3.jpg');
+  background-size: cover; /* wallpaper */
+  background-position: center; /* alinha a imagem*/
+  background-repeat: no-repeat; /* nao vai repetir imagem */
+   font-family: 'Soviet2e', sans-serif;
+   font-size: 20px;
+}
+
+@font-face {
+  font-family: 'Soviet2e';
+  src: url('fontes/Soviet2e.ttf') format('truetype');
+  
+}
+
+.fonte2{
+  font-family: 'Soviet2e', sans-serif;
+   font-size: 30px;}
+
+/* @font-face {
+  font-family: 'Russo_One';
+  src:url('fontes/Russo_One.ttf') format('truetype');
+} 
+
+@font-face {
+  font-family: 'Chernobyl';
+  src: url('fontes/Chernobyl.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Soviet2b';
+  src: url('fontes/Soviet2b.ttf') format('truetype');
+  
+}
+
+@font-face {
+  font-family: 'Soviet23D';
+  src: url('fontes/Soviet23D.ttf') format('truetype');
+  
+  ColdWarFilled
+
+  @font-face {
+  font-family: 'ColdWarFilled';
+  src: url('fontes/ColdWarFilled.ttf') format('truetype');
+}
+
+Soviet2p
+
+@font-face {
+  font-family: 'Soviet2p';
+  src: url('fontes/Soviet2p.ttf') format('truetype');
+}
+*/ 
+
+.botao1 {
+  display: inline-block;
+  background-color: #1a2c22; /* verde escuro */
+  color: white;
+  text-decoration: none; /* tira o sublinhado */
+  padding: 12px 24px;
+  border-radius: 15px; /* bordas arredondadas */
+  font-size: 20px;
+  font-family: 'Soviet2e', sans-serif; 
+  border: 2px solid #3b4a3f; /* borda solida com cor mais clara */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); /* sombra para profundidade */
+  cursor: pointer;
+  transition: all 0.3s ease; /* transição suave */
+}
+
+.botao1:hover {
+  background-color: #2c4334; /* cor mais clara no hover */
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6); /* sombra no hover */
+  transform: translateY(-2px); /* elevação no hover */
+}
+
+
+.espaço {
+    display: flex;
+    gap: 10px; 
+}
+
+
+.espaço2 {
+    display: flex;
+    gap: 10px; /* Espaço entre os botões */
+}
+
